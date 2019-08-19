@@ -11,7 +11,8 @@ export LDFLAGS="${LDFLAGS} -L${CONDA_BUILD_SYSROOT}/usr/lib64"
 # xref: https://github.com/openucx/ucx/issues/3391
 # xref: https://github.com/openucx/ucx/pull/3424
 
-#./autogen.sh
+cd "${SRC_DIR}/ucx"
+./autogen.sh
 ./configure \
     --build="${BUILD}" \
     --host="${HOST}" \
