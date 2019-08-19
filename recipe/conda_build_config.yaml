@@ -1,2 +1,6 @@
 ucx_proc_type:
 - cpu
+docker_image:
+- condaforge/linux-anvil-comp7
+- condaforge/linux-anvil-cuda:9.2
+- condaforge/linux-anvil-cuda:10.0
