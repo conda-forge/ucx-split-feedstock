@@ -72,3 +72,6 @@ extra:
     - Akshay-Venkatesh
     - jakirkham
     - TomAugspurger
+
+  variants:
+    docker_image: {{ docker_image }}
