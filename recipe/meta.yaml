@@ -79,6 +79,7 @@ outputs:
       build:
         - {{ compiler("c") }}
         - {{ compiler("cxx") }}
+        - {{ compiler("nvcc") }}         # [ucx_proc_type == "gpu"]
         - {{ cdt("libnl") }}
         - {{ cdt("libibverbs") }}
         - {{ cdt("librdmacm") }}
