@@ -10,8 +10,16 @@ jobs:
   strategy:
     maxParallel: 8
     matrix:
-      linux_:
-        CONFIG: linux_
+      linux_docker_imagecondaforge/linux-anvil-comp7:
+        CONFIG: linux_docker_imagecondaforge/linux-anvil-comp7
+        UPLOAD_PACKAGES: True
+        DOCKER_IMAGE: condaforge/linux-anvil-comp7
+      linux_docker_imagecondaforge/linux-anvil-cuda:10.0:
+        CONFIG: linux_docker_imagecondaforge/linux-anvil-cuda:10.0
+        UPLOAD_PACKAGES: True
+        DOCKER_IMAGE: condaforge/linux-anvil-cuda:10.0
+      linux_docker_imagecondaforge/linux-anvil-cuda:9.2:
+        CONFIG: linux_docker_imagecondaforge/linux-anvil-cuda:9.2
         UPLOAD_PACKAGES: True
         DOCKER_IMAGE: condaforge/linux-anvil-cuda:9.2
   steps:

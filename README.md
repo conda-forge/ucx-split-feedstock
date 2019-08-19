@@ -28,14 +28,7 @@ Current build status
         </summary>
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
-          <tbody><tr>
-              <td>linux</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7481&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ucx-split-feedstock?branchName=master&jobName=linux&configuration=linux_" alt="variant">
-                </a>
-              </td>
-            </tr>
+          <tbody>
           </tbody>
         </table>
       </details>
