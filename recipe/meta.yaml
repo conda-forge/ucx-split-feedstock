@@ -99,6 +99,7 @@ outputs:
         - ucp
     about:
       home: https://github.com/rapidsai/ucx-py
+      license_file: LICENSE
       summary: Python bindings for UCX
 
 about:
