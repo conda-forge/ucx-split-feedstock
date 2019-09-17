@@ -1,8 +1,8 @@
 {% set ucx_version = "1.7.0.dev" %}
-{% set ucx_commit = "2d85597" %}  # from Akshay's ucx-cuda branch
+{% set ucx_commit = "9275db5" %}  # from Akshay's ucx-cuda branch
 {% set ucx_py_version = "0.1.0.dev" %}
-{% set ucx_py_commit = "7d37e7e" %}  # from rapidsai's devel branch
-{% set number = "1" %}
+{% set ucx_py_commit = "c93687a" %}  # from rapidsai's devel branch
+{% set number = "2" %}
 
 package:
   name: ucx-split
