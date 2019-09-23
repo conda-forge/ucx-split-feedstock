@@ -17,7 +17,7 @@ build:
 
 outputs:
   - name: ucx-proc
-    version: 1.0.0
+    version: "1.6.1"
     build:
       number: 0
       string: "{{ ucx_proc_type }}"
