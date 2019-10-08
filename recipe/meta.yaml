@@ -1,7 +1,7 @@
 {% set ucx_version = "1.7.0.dev" %}
 {% set ucx_proc_version = "1.0.0" %}
 {% set ucx_commit = "7cf55ac" %}  # from Akshay's ucx-cuda branch
-{% set ucx_py_version = "0.1.0.dev" %}
+{% set ucx_py_version = "0.1+46.g7b739a4" %}
 {% set ucx_py_commit = "7b739a4" %}  # from rapidsai's devel branch
 {% set number = "5" %}
 
@@ -80,7 +80,7 @@ outputs:
       summary: Unified Communication X.
 
   - name: ucx-py
-    version: "{{ ucx_py_version }}{{ number }}+g{{ ucx_py_commit }}"
+    version: "{{ ucx_py_version }}"
     build:
       number: {{ number }}
       skip: true  # [py<36]
