@@ -22,8 +22,6 @@ source:
 build:
   skip: true  # [not linux]
   number: 0
-  script_env:
-    - CUDA_HOME
 
 outputs:
   - name: ucx-proc
@@ -44,6 +42,8 @@ outputs:
     version: {{ ucx_version }}
     build:
       number: {{ number }}
+      script_env:
+        - CUDA_HOME
     requirements:
       build:
         - {{ compiler("c") }}
