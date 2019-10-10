@@ -22,6 +22,8 @@ source:
 build:
   skip: true  # [not linux]
   number: 0
+  script_env:
+    - CUDA_HOME
 
 outputs:
   - name: ucx-proc
