@@ -77,6 +77,8 @@ outputs:
     build:
       number: {{ number }}
       skip: true  # [py<36]
+      ignore_run_exports:
+        - cudatoolkit                    # [cuda_compiler_version != "None"]
     requirements:
       build:
         - {{ compiler("c") }}
