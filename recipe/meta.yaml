@@ -1,6 +1,6 @@
 {% set ucx_version = "1.7.0.dev" %}
 {% set ucx_proc_version = "1.0.0" %}
-{% set ucx_commit = "7cf55ac" %}  # from Akshay's ucx-cuda branch
+{% set ucx_commit = "9544fb9" %}
 {% set ucx_py_version = "0.1+46.g7b739a4" %}
 {% set ucx_py_commit = "7b739a4" %}  # from rapidsai's devel branch
 {% set number = "5" %}
@@ -12,16 +12,9 @@ package:
   name: ucx-split
 
 source:
-  - git_url: https://github.com/Akshay-Venkatesh/ucx
+  - git_url: https://github.com/openucx/ucx
     git_rev: {{ ucx_commit }}
     folder: ucx
-    patches:
-      #####################################################
-      # Fix a linking issue with `test_link_map`.         #
-      #                                                   #
-      # xref: https://github.com/openucx/ucx/issues/4218  #
-      #####################################################
-      - fixes_4218.diff
   - git_url: https://github.com/rapidsai/ucx-py
     git_rev: {{ ucx_py_commit }}
     folder: ucx-py
