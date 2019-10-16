@@ -3,7 +3,7 @@
 {% set ucx_commit = "9544fb9" %}
 {% set ucx_py_version = "0.1+46.g7b739a4" %}
 {% set ucx_py_commit = "7b739a4" %}  # from rapidsai's `branch-0.10`
-{% set number = "5" %}
+{% set number = "6" %}
 
 {% set ucx_proc_type = "cpu" if cuda_compiler_version == "None" else "gpu" %}
 
