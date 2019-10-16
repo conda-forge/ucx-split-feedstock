@@ -1,6 +1,6 @@
 {% set ucx_version = "1.7.0.dev" %}
 {% set ucx_proc_version = "1.0.0" %}
-{% set ucx_commit = "7cf55ac" %}  # from Akshay's ucx-cuda branch
+{% set ucx_commit = "7cf55ac" %}
 {% set number = "3" %}
 
 {% set ucx_proc_type = "cpu" if cuda_compiler_version == "None" else "gpu" %}
@@ -10,7 +10,7 @@ package:
   name: ucx-split
 
 source:
-  git_url: https://github.com/Akshay-Venkatesh/ucx
+  git_url: https://github.com/openucx/ucx
   git_rev: {{ ucx_commit }}
   patches:
     #####################################################
