@@ -11,6 +11,8 @@ package:
 source:
   url: https://github.com/openucx/ucx/archive/v{{ ucx_version }}.tar.gz
   sha256: d7d8b2436990e106642fc90116bbf951cb2bf73479ebbe384c34410483b51187
+  patches:
+    - stream_refcount_v1.7.0.patch
 
 build:
   skip: true  # [not linux]
