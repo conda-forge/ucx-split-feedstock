@@ -29,3 +29,4 @@ fi
 
 make -j${CPU_COUNT}
 make install
+ls -l $PREFIX/lib
