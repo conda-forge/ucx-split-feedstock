@@ -222,6 +222,7 @@ Feedstock Maintainers
 * [@TomAugspurger](https://github.com/TomAugspurger/)
 * [@jakirkham](https://github.com/jakirkham/)
 * [@leofang](https://github.com/leofang/)
+* [@marcinz](https://github.com/marcinz/)
 * [@matthiasdiener](https://github.com/matthiasdiener/)
 * [@quasiben](https://github.com/quasiben/)
 * [@xhochy](https://github.com/xhochy/)
