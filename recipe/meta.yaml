@@ -2,6 +2,7 @@
 
 package:
   name: ucx-split
+  version: {{ version }}
 
 source:
   url: https://github.com/openucx/ucx/releases/download/v{{ version }}/ucx-{{ version }}.tar.gz
