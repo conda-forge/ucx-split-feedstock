@@ -17,7 +17,7 @@ source:
 
 build:
   skip: true  # [not linux or cuda_compiler_version == "None"]
-  number: 3
+  number: 4
 
 outputs:
   - name: ucx
