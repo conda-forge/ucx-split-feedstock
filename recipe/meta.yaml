@@ -1,4 +1,4 @@
-{% set version = "1.17.0" %}
+{% set version = "1.18.0" %}
 
 package:
   name: ucx-split
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/openucx/ucx/releases/download/v{{ version }}/ucx-{{ version }}.tar.gz
-  sha256: 34658e282f99f89ce7a991c542e9727552734ac6ad408c52f22b4c2653b04276
+  sha256: fa75070f5fa7442731b4ef5fc9549391e147ed3d859afeb1dad2d4513b39dc33
   patches:
     ################################################################
     # Apply upstream patch to fix missing `INFINITY` in UCS time.  #
@@ -17,7 +17,7 @@ source:
 
 build:
   skip: true  # [not linux or cuda_compiler_version == "None"]
-  number: 4
+  number: 0
 
 outputs:
   - name: ucx
