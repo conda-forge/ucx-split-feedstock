@@ -224,6 +224,7 @@ Feedstock Maintainers
 * [@leofang](https://github.com/leofang/)
 * [@marcinz](https://github.com/marcinz/)
 * [@matthiasdiener](https://github.com/matthiasdiener/)
+* [@pentschev](https://github.com/pentschev/)
 * [@quasiben](https://github.com/quasiben/)
 * [@xhochy](https://github.com/xhochy/)
 
