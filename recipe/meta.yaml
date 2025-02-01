@@ -9,7 +9,7 @@ source:
   sha256: fa75070f5fa7442731b4ef5fc9549391e147ed3d859afeb1dad2d4513b39dc33
 
 build:
-  skip: true  # [not linux or cuda_compiler_version == "None"]
+  skip: true  # [(not linux) or cuda_compiler_version in (undefined, "None", "12.6")]
   number: 0
 
 outputs:
