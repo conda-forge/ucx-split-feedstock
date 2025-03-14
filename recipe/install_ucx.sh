@@ -37,3 +37,6 @@ make -j${CPU_COUNT}
 make install
 
 cp "${RECIPE_DIR}/ucx-post-link.sh" "${PREFIX}/bin/.ucx-post-link.sh"
+
+mkdir -p "${PREFIX}/etc/conda/activate.d"
+cp -v "${RECIPE_DIR}/ucx-activate.sh" "${PREFIX}/etc/conda/activate.d/"
