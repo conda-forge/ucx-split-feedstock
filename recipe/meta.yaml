@@ -10,14 +10,14 @@ source:
 
 build:
   skip: true  # [(not linux) or cuda_compiler_version in (undefined, "None", "12.6")]
-  number: 0
+  number: 1
 
 outputs:
   - name: ucx
     version: {{ version }}
     build:
       run_exports:
-        - {{ pin_subpackage("ucx", max_pin="x.x") }}
+        - {{ pin_subpackage("ucx", max_pin="x.x.x") }}
       ignore_run_exports_from:
         - {{ compiler("cuda") }}
         - cuda-cudart-dev         # [cuda_compiler == "cuda-nvcc"]
