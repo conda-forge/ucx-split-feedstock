@@ -15,7 +15,7 @@ channel_targets:
 cuda_compiler:
 - cuda-nvcc
 cuda_compiler_version:
-- '12.8'
+- '12.9'
 cxx_compiler:
 - gxx
 cxx_compiler_version:
@@ -25,7 +25,7 @@ docker_image:
 rdma_core:
 - '57'
 target_platform:
-- linux-64
+- linux-aarch64
 ucx:
 - '1.18'
 zip_keys:
