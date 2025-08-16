@@ -27,7 +27,7 @@ rdma_core:
 target_platform:
 - linux-ppc64le
 ucx:
-- '1.18'
+- '1.19'
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
