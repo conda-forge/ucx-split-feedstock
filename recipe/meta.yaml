@@ -17,7 +17,7 @@ outputs:
     version: {{ version }}
     build:
       run_exports:
-        - {{ pin_subpackage("ucx", max_pin="x.x") }}
+        - {{ pin_subpackage("ucx", max_pin="x.x.x") }}
       ignore_run_exports_from:
         - {{ compiler("cuda") }}
         - cuda-cudart-dev         # [cuda_compiler == "cuda-nvcc"]
