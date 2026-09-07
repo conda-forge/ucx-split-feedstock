@@ -1,12 +1,8 @@
-azure:
-  free_disk_space: true
-  store_build_artifacts: true
 bot:
   version_updates:
     exclude:
     - '43'
 build_platform:
-  linux_aarch64: linux_64
   linux_ppc64le: linux_64
 conda_build:
   error_overlinking: true
@@ -18,3 +14,6 @@ github:
 provider:
   linux_aarch64: default
   linux_ppc64le: default
+workflow_settings:
+  free_disk_space: quick
+  store_build_artifacts: true

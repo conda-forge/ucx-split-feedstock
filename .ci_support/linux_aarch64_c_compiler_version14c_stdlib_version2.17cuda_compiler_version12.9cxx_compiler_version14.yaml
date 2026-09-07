@@ -19,13 +19,13 @@ cxx_compiler:
 cxx_compiler_version:
 - '14'
 docker_image:
-- quay.io/condaforge/linux-anvil-x86_64:alma10
+- quay.io/condaforge/linux-anvil-aarch64:alma10
 rdma_core:
-- '63'
+- '65'
 target_platform:
 - linux-aarch64
 ucx:
-- '1.21'
+- '1.22'
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
